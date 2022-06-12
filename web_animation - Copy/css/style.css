@@ -1,0 +1,245 @@
+body {
+    font-family: 'Tahoma';
+    line-height: 1.5;
+}
+
+.item1 {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+}
+
+
+/* trước hover */
+
+.item1:before {
+    position: absolute;
+    content: "a";
+    color: #fff;
+    width: 120px;
+    height: 110px;
+    font-size: 50px;
+    border-radius: 15px 100% 100% 75%;
+    transition: 0.3s;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    background: #f35c23;
+}
+
+.item1:after {
+    position: absolute;
+    content: "a";
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px 100% 100% 75%;
+    transition: 0.3s;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    opacity: 0;
+    background: #000;
+}
+
+.fa-laptop {
+    content: "\f109";
+}
+
+.item1:hover {
+    color: #fff;
+}
+
+.item1:hover:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 76px 35px;
+    color: #f35c23;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.item1:hover:after {
+    width: 100px;
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 30px;
+    opacity: 1;
+    border-radius: 15px 15px 76px 35px;
+}
+
+.item1 h3 {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.item1 p {
+    padding-bottom: 10px;
+}
+
+.item2 {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+}
+
+.item2:before {
+    position: absolute;
+    content: "c";
+    font-family: "FontAwesome";
+    color: #fff;
+    width: 120px;
+    height: 110px;
+    font-size: 50px;
+    border-radius: 15px 100% 100% 75%;
+    transition: 0.3s;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    background: #f35c23;
+}
+
+.item2:after {
+    position: absolute;
+    content: "d";
+    font-family: "FontAwesome";
+    color: #fff;
+    font-size: 50px;
+    border-radius: 15px 15px 76px 35px;
+    transition: 0.3s;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    opacity: 0;
+    background: #000;
+}
+
+.item2:hover {
+    color: #fff;
+}
+
+.item2:hover:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 76px 35px;
+    color: #f35c23;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.item2:hover:after {
+    width: 100px;
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 30px;
+    opacity: 1;
+    border-radius: 15px 15px 76px 35px;
+}
+
+.item2 h3 {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.item2 p {
+    padding-bottom: 10px;
+}
+
+.item3 {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+}
+
+.item3:before {
+    position: absolute;
+    content: "d";
+    font-family: "FontAwesome";
+    color: #fff;
+    width: 120px;
+    height: 110px;
+    font-size: 50px;
+    border-radius: 15px 100% 100% 75%;
+    transition: 0.3s;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    background: #f35c23;
+}
+
+.item3:after {
+    position: absolute;
+    content: "d";
+    color: #fff;
+    font-size: 50px;
+    border-radius: 50% 50% 50% 50%;
+    transition: 0.3s;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    opacity: 0;
+    background: #000;
+}
+
+.item3:hover {
+    color: #fff;
+}
+
+.item3:hover:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 76px 35px;
+    color: #f35c23;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.item3:hover:after {
+    width: 100px;
+    height: 90px;
+    padding-top: 30px;
+    padding-left: 30px;
+    opacity: 1;
+    border-radius: 15px 15px 76px 35px;
+}
+
+.item3 h3 {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.item3 p {
+    padding-bottom: 10px;
+}
